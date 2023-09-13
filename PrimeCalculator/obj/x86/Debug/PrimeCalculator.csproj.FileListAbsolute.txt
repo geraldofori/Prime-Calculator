@@ -1,0 +1,6 @@
+/home/gerald/Projects/PrimeCalculator/PrimeCalculator/bin/Debug/PrimeCalculator.exe
+/home/gerald/Projects/PrimeCalculator/PrimeCalculator/bin/Debug/PrimeCalculator.pdb
+/home/gerald/Projects/PrimeCalculator/PrimeCalculator/obj/x86/Debug/PrimeCalculator.csproj.AssemblyReference.cache
+/home/gerald/Projects/PrimeCalculator/PrimeCalculator/obj/x86/Debug/PrimeCalculator.csproj.CoreCompileInputs.cache
+/home/gerald/Projects/PrimeCalculator/PrimeCalculator/obj/x86/Debug/PrimeCalculator.exe
+/home/gerald/Projects/PrimeCalculator/PrimeCalculator/obj/x86/Debug/PrimeCalculator.pdb

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/PrimeCalculator.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="469 355">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Entry" id="entry1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">•</property>
+          </widget>
+          <packing>
+            <property name="X">32</property>
+            <property name="Y">76</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="entry2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">•</property>
+          </widget>
+          <packing>
+            <property name="X">258</property>
+            <property name="Y">75</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label2">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Enter a number:</property>
+          </widget>
+          <packing>
+            <property name="X">289</property>
+            <property name="Y">47</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Enter a number: </property>
+          </widget>
+          <packing>
+            <property name="X">68</property>
+            <property name="Y">45</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Calculate</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="Calculate" />
+          </widget>
+          <packing>
+            <property name="X">58</property>
+            <property name="Y">310</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+            <property name="MemberName" />
+            <property name="ShadowType">In</property>
+            <property name="BorderWidth">3</property>
+            <child>
+              <widget class="Gtk.TextView" id="textview1">
+                <property name="MemberName" />
+                <property name="WidthRequest">100</property>
+                <property name="HeightRequest">150</property>
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Editable">False</property>
+                <property name="CursorVisible">False</property>
+                <property name="Text" translatable="yes" />
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">55</property>
+            <property name="Y">116</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow1">
+            <property name="MemberName" />
+            <property name="ShadowType">In</property>
+            <child>
+              <widget class="Gtk.TextView" id="textview2">
+                <property name="MemberName" />
+                <property name="WidthRequest">100</property>
+                <property name="HeightRequest">150</property>
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Editable">False</property>
+                <property name="Text" translatable="yes" />
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">291</property>
+            <property name="Y">120</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button3">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Reset</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="Reset" />
+          </widget>
+          <packing>
+            <property name="X">327</property>
+            <property name="Y">307</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

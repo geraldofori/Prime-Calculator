@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{33B03C0B-4B1E-449C-820D-23B3CE3C240A}|Default">
+  <MonoDevelop.Ide.ItemProperties.PrimeCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrimeCalculator/MainWindow.cs">
+    <Files>
+      <File FileName="PrimeCalculator/Program.cs" Line="13" Column="31" />
+      <File FileName="PrimeCalculator/MainWindow.cs" Line="17" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PrimeCalculator" expanded="True">
+            <Node name="PrimeCalculator" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
